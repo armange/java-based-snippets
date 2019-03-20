@@ -1,0 +1,11 @@
+dependencies {
+    testCompile library.org_jboss_weld_se_weld_se
+    
+    testCompile library.org_apache_deltaspike_core_deltaspike_core_api
+    testCompile library.org_apache_deltaspike_core_deltaspike_core_impl
+    testCompile library.org_apache_deltaspike_cdictrl_deltaspike_cdictrl_api
+    testCompile library.org_apache_deltaspike_cdictrl_deltaspike_cdictrl_weld
+    
+    testCompile library.junit_junit
+    testCompile library.org_assertj_assertj_core
+}

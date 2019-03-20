@@ -1,0 +1,36 @@
+def deltaspikeVersion = "1.9.0"
+def armangeVersion = "0.0.1-SNAPSHOT"
+def jerseyVersion = "2.25.1"
+
+ext.library = [
+    
+    // The Apache Software License, Version 2.0
+    com_google_guava_guava: "com.google.guava:guava:23.0",
+    
+    org_glassfish_jersey_containers_jersey_container_servlet: "org.glassfish.jersey.containers:jersey-container-servlet:$jerseyVersion",
+    org_glassfish_jersey_ext_jersey_bean_validation: "org.glassfish.jersey.ext:jersey-bean-validation:$jerseyVersion",
+    
+    // Apache License 2.0
+    org_apache_deltaspike_core_deltaspike_core_api: "org.apache.deltaspike.core:deltaspike-core-api:$deltaspikeVersion",
+    org_apache_deltaspike_core_deltaspike_core_impl: "org.apache.deltaspike.core:deltaspike-core-impl:$deltaspikeVersion",
+    org_apache_deltaspike_cdictrl_deltaspike_cdictrl_api: "org.apache.deltaspike.cdictrl:deltaspike-cdictrl-api:$deltaspikeVersion",
+    org_apache_deltaspike_cdictrl_deltaspike_cdictrl_weld: "org.apache.deltaspike.cdictrl:deltaspike-cdictrl-weld:$deltaspikeVersion",
+    org_apache_deltaspike_cdictrl_deltaspike_cdictrl_servlet: "org.apache.deltaspike.cdictrl:deltaspike-cdictrl-servlet:$deltaspikeVersion",
+    
+    // Apache License 2.0
+    org_jboss_weld_se_weld_se: "org.jboss.weld.se:weld-se:2.3.3.Final",
+    
+    /*
+     * MPL 1.1
+     * LGPL 2.1
+     * Apache License 2.0
+     */
+    org_javassist_javassist: "org.javassist:javassist:3.24.0-GA",
+    
+    // Eclipse Public License 1.0
+    junit_junit: "junit:junit:4.12",
+    
+    // The Apache Software License, Version 2.0
+    org_assertj_assertj_core: "org.assertj:assertj-core:3.12.1",
+    org_hamcrest_hamcrest: "org.hamcrest:hamcrest:2.1",
+]
